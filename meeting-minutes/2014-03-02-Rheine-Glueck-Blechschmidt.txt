@@ -1,0 +1,36 @@
+Agenda:
+
+Nils Glück, Manuel Blechschmidt
+
+- Ziele des Kurses
+    - Teilnehmer sollen SQL können
+    - Teilnehmer sollen ein Verständnis einer API haben
+    - Teilnehmer sollen einfache Datenanalyse können, Fragebogen auswerten
+    - Beispiel: Adressbuch + Telefonate
+- Datenbanktechnologie (MySQL)
+    - MySQL ist primäre Technologie, weil verbreitet, kostenlos, open source und netzwerktransparent
+- Clienttechnologie
+    - mysql CLI, phpMyAdmin und RStudio (Facebook Open Graph - API)
+    - Ziel keine Softwareinstallation bei Teilnehmer (eigenes lokales Netzwerk)
+- SQL
+   - Relationale Algebra
+     - E/R Diagramme
+     - Normalformen
+   - ANSI SQL 92 nur Select, Update, Insert und Delete
+- Zeitplanung ( 1 Vormittag 2 Nachmittage circa 3 Stunden)
+   - 3 Lerneinheiten:
+      - 1. Basiswissen Datenbanken (Was ist eine Datenbank, Relationale Datenbank, Client/Server, SQL) (Nils) 1 Stunde
+      - 2. Praxisteil SQL (Nils) 2 Stunden
+      - 3. Praxisteil R + Datenanalyse + Graphenanalyse (Manuel) 3 Stunden
+   - Foliensätze primär mit Quellen
+
+Nächste Schritte:
+- Synchronisation über github repository (MB)
+- Zeitplan (MB)
+- Folienmaster (MB)
+- Datenstrukturen für Beispiel (NG)
+- SQL Foliensatz (NG)
+- R Foliensatz (MB)
+- R Graphanalyse (MB)
+
+Kommunikation primär über Email
