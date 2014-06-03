@@ -49,6 +49,7 @@ telefonate$zu_telefonnummer <- adressbuch$telefonnummer[abs(ceiling(rnorm(k, 10,
 telefonate$laenge <- exp(rnorm(k))*60
 
 adressbuch_telefonate <- merge(adressbuch, telefonate, by.x = "telefonnummer", by.y="von_telefonnummer")
+adressbuch_telefonate <- adressbuch_telefonate[with(adressbuch_telefonate, order(adressbuch_telefonate$id.y)), ]
 # make women call 30 seconds longer then men
 telefonate$laenge <- telefonate$laenge + ifelse(adressbuch_telefonate$geschlecht == "Frau", 30, 0)
 
