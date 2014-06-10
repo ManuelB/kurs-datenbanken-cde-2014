@@ -1,3 +1,4 @@
+library(igraph)
 library(RMySQL) # will load DBI as well
 ## open a connection to a MySQL database
 connection <- dbConnect(dbDriver("MySQL"), user = "root", password = "", dbname = "kurs04", host="127.0.0.1")

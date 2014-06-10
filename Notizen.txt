@@ -1,0 +1,65 @@
+
+1. Fachmodel verstehen und modellieren
+- Objektorientierte Analyse
+- Entity-Relationship-Diagram
+
+MySQL - Datenbankserver
+phpMyAdmin - Datenbankadministrationstool
+
+
+2. Tabellen anlegen (SQL Statement: CREATE DATABASE und CREATE TABLE)
+
+CREATE TABLE mytable (
+    id int(11) auto_increment NOT NULL,
+    name varchar(255) NOT NULL,
+    PRIMARY KEY(id)
+)
+
+3. Daten in Tabellen anlegen (SQL Statement: INSERT)
+
+INSERT mytable (name) VALUES ('Manuel Blechschmidt');
+
+4. Daten abgefragt (SQL Statement: SELECT)
+
+SELECT name FROM mytable WHERE name = 'Manuel Blechschmidt';
+
+5. Daten gelöscht
+
+DELETE FROM mytable WHERE name = 'Manuel Blechschmidt';
+
+6. Daten aktualisiert
+
+UPDATE mytable SET name = 'Manuel Andreas Blechschmidt' WHERE name = 'Manuel Blechschmidt';
+
+
+JOINS
+
+Right Join
+
+SELECT * FROM maenner, frauen WHERE maenner.partner = frauen.name
+
+Left Join
+
+SELECT * FROM frauen LEFT JOIN maenner ON (maenner.partner = frauen.name)
+
+
+7. Aggregatsfunktionen:
+
+SELECT
+ Molekuele.id, Molekuele.name, COUNT(*), MIN(energie)
+FROM
+    `Ionisierungsenergien`,Molekuele
+WHERE
+    Molekuele.id = Ionisierungsenergien.molekuel_id GROUP BY molekuel_id
+
+8. Erstellung eines Webfrontend mit PHP
+- Einträge darstellen
+- Neue Einträge erstellen
+- Einträge löschen
+
+
+9. Datenanalyse
+SELECT von.vorname, zu.vorname, t.laenge
+FROM telefonat t,  `adressbuch` von,  `adressbuch` zu
+WHERE t.von_telefonnummer = von.telefonnummer
+AND t.zu_telefonnummer = zu.telefonnummer

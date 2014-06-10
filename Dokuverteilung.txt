@@ -1,0 +1,21 @@
+Doku 3 Seiten pro Seite 2100
+
+Deadline 7.7.
+Teilnehmer 1.7.
+
+Jakob macht Gangster Graph schön
+
+Einleitung (Datenbanken, Datenstrukturen, Normalisierung) -> Chiara
+Client-Server -> Dominic
+Entity-Relationship Diagramme -> Elke
+SQL (schwer) -> Jakob (SELECT, DELETE) und Julian (INSERT, UPDATE)
+PHP Webfrontend -> Claudia
+Deskriptive Statistik (schwer)  -> Anna-Carolina
+Graphanalyse (schwer) -> Paul
+
+
+
+15.45 — 16.15: Elke, Fabian
+16.15 — 16.45: Chiara, Jakob
+16.45 — 17.15: Claudia, Paul, Dominic
+17.15 — 17.45: Anna, Julian
